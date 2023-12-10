@@ -1,6 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-import { logoutUser } from "../user/userSlice";
 import { toast } from "react-toastify";
 import { getUserFromLocalStorage } from "../../utils/localstorage";
 import { createJobThunk, deleteJobThunk, editJobThunk } from "./jobThunk";
