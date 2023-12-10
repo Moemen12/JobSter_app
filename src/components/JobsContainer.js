@@ -22,7 +22,7 @@ const JobsContainer = () => {
 
   useEffect(() => {
     dispatch(getAllJobs());
-  }, [page, search, searchStatus, searchType, sort]);
+  }, [page, search, searchStatus, searchType, sort, dispatch]);
 
   if (isLoading) {
     return <Loading center />;
